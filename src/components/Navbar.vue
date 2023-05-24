@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="nav">
-    <RouterLink class="home" to="/">PromptFinder</RouterLink>
+    <RouterLink class="home" to="/">Website Title</RouterLink>
     <div>
       <RouterLink class="page" to="/appfinder">App Finder</RouterLink>
       <RouterLink class="page" to="/database">Database</RouterLink>
@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 .nav {
   height: 64px;
-  background: #FF7628;
+  background: #4d2986;
   display: flex;
   justify-content: space-between;
   align-items: center;

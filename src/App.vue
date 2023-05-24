@@ -17,7 +17,7 @@ import { RouterView } from 'vue-router'
   </footer>
 </template>
 
-<style scoped>
+<style>
 footer {
   background-color: #f2f2f2;
   color: #737373;
@@ -27,5 +27,9 @@ footer {
   width: 100%;
   text-align: center;
   font-family: 'Rubik', sans-serif;
+}
+
+main {
+  padding-bottom: 120px;
 }
 </style>

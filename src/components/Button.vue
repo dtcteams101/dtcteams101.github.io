@@ -20,12 +20,12 @@ defineProps({
   font-size: 30px;
   font-family: 'Rubik', sans-serif;
   border-style: hidden;
-  background-color: #FF7628;
+  background-color: #4d2986;
   color: white;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #ff6e1a;
+  background-color: #432475;
 }
 </style>

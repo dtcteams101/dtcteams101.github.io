@@ -1,3 +1,17 @@
+<script setup>
+import Table from '../components/Table.vue'
+</script>
+
 <template>
-  <h2>Database</h2>
+  <h1>App Database</h1>
+  <Table />
 </template>
+
+<style scoped>
+h1 {
+  font-family: 'Rubik', sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+</style>
