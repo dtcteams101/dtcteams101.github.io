@@ -20,6 +20,5 @@ import TableRow from '../components/TableRow.vue'
   margin-top: 10px;
   overflow-x: auto;
   overflow-y: auto;
-  height: 400px;
 }
 </style>

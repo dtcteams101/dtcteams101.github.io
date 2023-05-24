@@ -4,32 +4,37 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <Navbar />
-  </header>
+  <div class="container">
+    <header>
+      <Navbar />
+    </header>
 
-  <main>
-    <RouterView />
-  </main>
+    <main>
+      <RouterView />
+    </main>
 
-  <footer>
-    &copy; ajisbigbrother
-  </footer>
+    <footer>
+      &copy; ajisbigbrother
+    </footer>
+  </div>
 </template>
 
 <style>
+main {
+  padding-bottom: 100px;
+}
+
 footer {
   background-color: #f2f2f2;
   color: #737373;
   height: 100px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   font-family: 'Rubik', sans-serif;
 }
 
-main {
-  padding-bottom: 120px;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 </style>
