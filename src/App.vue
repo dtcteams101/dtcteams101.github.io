@@ -4,24 +4,23 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="container">
-    <header>
-      <Navbar />
-    </header>
+  <header>
+    <Navbar />
+  </header>
 
-    <main>
-      <RouterView />
-    </main>
+  <main>
+    <RouterView />
+  </main>
 
-    <footer>
-      &copy; ajisbigbrother
-    </footer>
-  </div>
+  <footer>
+    Copyright &copy; 2023, Daniel Liu
+  </footer>
 </template>
 
 <style>
 main {
   padding-bottom: 100px;
+  /* border: 1px solid black; */
 }
 
 footer {
@@ -31,10 +30,6 @@ footer {
   width: 100%;
   text-align: center;
   font-family: 'Rubik', sans-serif;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
+  flex-shrink: 0;
 }
 </style>

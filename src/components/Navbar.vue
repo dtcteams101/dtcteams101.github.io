@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="nav">
-    <RouterLink class="home" to="/">Website Title</RouterLink>
+    <RouterLink class="home" to="/">Promptly</RouterLink>
     <div>
       <RouterLink class="page" to="/appfinder">App Finder</RouterLink>
       <RouterLink class="page" to="/database">Database</RouterLink>

@@ -10,7 +10,7 @@ import Table from '../components/Table.vue'
 <style scoped>
 h1 {
   font-family: 'Rubik', sans-serif;
-  padding-top: 20px;
+  padding-top: 50px;
   text-align: center;
   font-size: 28px;
 }
