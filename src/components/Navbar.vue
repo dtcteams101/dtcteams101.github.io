@@ -3,17 +3,17 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="nav">
+  <nav>
     <RouterLink class="home" to="/">Promptly</RouterLink>
     <div>
       <RouterLink class="page" to="/appfinder">App Finder</RouterLink>
       <RouterLink class="page" to="/database">Database</RouterLink>
     </div>
-  </div>
+  </nav>
 </template>
 
 <style scoped>
-.nav {
+nav {
   height: 64px;
   background: #4d2986;
   display: flex;
@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router'
   align-items: center;
   gap: 20px;
   font-family: 'Rubik', sans-serif;
-  /* box-shadow: 0px 2px 2px gray; */
+  box-shadow: 0px 2px 2px gray;
 }
 
 .home {

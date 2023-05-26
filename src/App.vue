@@ -13,14 +13,13 @@ import { RouterView } from 'vue-router'
   </main>
 
   <footer>
-    Copyright &copy; 2023, Daniel Liu
+    Copyright &copy; 2023 Daniel Liu, AJ Liss, Angela Guan, George Moseley
   </footer>
 </template>
 
 <style>
 main {
   padding-bottom: 100px;
-  /* border: 1px solid black; */
 }
 
 footer {
@@ -28,8 +27,10 @@ footer {
   color: #737373;
   height: 100px;
   width: 100%;
-  text-align: center;
   font-family: 'Rubik', sans-serif;
-  flex-shrink: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
