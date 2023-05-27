@@ -6,12 +6,12 @@ import TableRow from '../components/TableRow.vue'
 <template>
   <div class="table">
     <TableHeader />
-    <TableRow name="Alarmy (Premium)" details="Audio reminders, tactile feedback, snoozable, paid ($x)" link="Link" rating="Rating" />
+    <TableRow name="Alarmy (Premium)" details="Audio reminders, tactile feedback, snoozable, paid ($4.99/month)" link="Link" rating="Rating" />
     <TableRow name="Coalarm" details="Audio reminders, free" link="Link" rating="Rating" />
     <TableRow name="Cozi Family Organizer" details="Includes calendar, syncs with group, free" link="Link" rating="Rating" />
     <TableRow name="Google Calendar" details="Tactile feedback, includes calendar, syncs with group, free" link="Link" rating="Rating" />
     <TableRow name="Talk to me Alarm Clock" details="Audio reminders, tactile feedback, free" link="Link" rating="Rating" />
-    <TableRow name="Reminder" details="Audio reminders, tactile feedback, picture reminders, includes calendar, paid ($x)" link="Link" rating="Rating" />
+    <TableRow name="Reminder" details="Audio reminders, tactile feedback, picture reminders, includes calendar, paid ($1.99)" link="Link" rating="Rating" />
   </div>
 </template>
 

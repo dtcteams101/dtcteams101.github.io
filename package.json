@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@typeform/embed": "^2.11.0",
     "vue": "^3.3.2",
     "vue-router": "^4.2.1"
   },

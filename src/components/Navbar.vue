@@ -5,9 +5,13 @@ import { RouterLink } from 'vue-router'
 <template>
   <nav>
     <RouterLink class="home" to="/">Promptly</RouterLink>
-    <div>
-      <RouterLink class="page" to="/appfinder">App Finder</RouterLink>
-      <RouterLink class="page" to="/database">Database</RouterLink>
+    <div class="links">
+      <RouterLink to="/appfinder" v-slot="{ navigate }">
+        <button @click="navigate">App Finder</button>
+      </RouterLink>
+      <RouterLink to="/database" v-slot="{ navigate }">
+        <button @click="navigate">Database</button>
+      </RouterLink>
     </div>
   </nav>
 </template>
@@ -24,6 +28,21 @@ nav {
   box-shadow: 0px 2px 2px gray;
 }
 
+button {
+  height: 64px;
+  width: 128px;
+  background: #4d2986;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+button:hover {
+  background: #59309c;
+}
+
 .home {
   font-size: 30px;
   color: white;
@@ -31,9 +50,7 @@ nav {
   font-weight: bold;
 }
 
-.page {
-  font-size: 18px;
-  color: white;
-  padding-right: 30px;
+.links {
+  padding-right: 10px;
 }
 </style>

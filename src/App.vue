@@ -9,7 +9,13 @@ import { RouterView } from 'vue-router'
   </header>
 
   <main>
-    <RouterView />
+    <RouterView v-slot="{ Component, route }">
+      <Transition name="fade" mode="out-in">
+        <div :key="route.name">
+          <component :is="Component" />
+        </div>
+      </Transition>
+    </RouterView>
   </main>
 
   <footer>
@@ -20,6 +26,7 @@ import { RouterView } from 'vue-router'
 <style>
 main {
   padding-bottom: 100px;
+  will-change: opacity, transform;
 }
 
 footer {
@@ -32,5 +39,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: 0.3s opacity ease-out;
 }
 </style>
