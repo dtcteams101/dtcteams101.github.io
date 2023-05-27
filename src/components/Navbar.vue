@@ -30,7 +30,7 @@ nav {
 
 button {
   height: 64px;
-  width: 128px;
+  width: 120px;
   background: #4d2986;
   color: white;
   border: 0px;
@@ -51,6 +51,6 @@ button:hover {
 }
 
 .links {
-  padding-right: 10px;
+  padding-right: 15px;
 }
 </style>
