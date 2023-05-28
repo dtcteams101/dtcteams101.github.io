@@ -1,7 +1,8 @@
 <script setup>
-
+import { createWidget } from '@typeform/embed'
+import '@typeform/embed/build/css/widget.css'
 </script>
 
 <template>
-  <h2>App Finder</h2>
+
 </template>

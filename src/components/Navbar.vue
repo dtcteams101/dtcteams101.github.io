@@ -6,9 +6,10 @@ import { RouterLink } from 'vue-router'
   <nav>
     <RouterLink class="home" to="/">Promptly</RouterLink>
     <div class="links">
-      <RouterLink to="/appfinder" v-slot="{ navigate }">
+      <!-- <RouterLink to="/appfinder" v-slot="{ navigate }">
         <button @click="navigate">App Finder</button>
-      </RouterLink>
+      </RouterLink> -->
+      <a href="https://idc8nflfnud.typeform.com/to/HmgFptlu" target="_blank" class="button">App Finder</a>
       <RouterLink to="/database" v-slot="{ navigate }">
         <button @click="navigate">Database</button>
       </RouterLink>
@@ -39,7 +40,14 @@ button {
   font-size: 18px;
 }
 
-button:hover {
+.button {
+  padding: 21px 21px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+button:hover, .button:hover {
   background: #59309c;
 }
 
